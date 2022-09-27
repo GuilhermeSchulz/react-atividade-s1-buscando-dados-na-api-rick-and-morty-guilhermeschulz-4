@@ -20,7 +20,7 @@ console.log(results)
       <StyledMain>
         <StyledLogo src={logo} alt="Logo Rick and Morty" />
         <StyledTitle>Lista de Personagens:</StyledTitle>
-        <StyledList>
+        <StyledList vertical={false}>
            {results.map((element) => (<RenderCard element={element}/>))}
         </StyledList>
       </StyledMain>
