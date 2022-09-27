@@ -51,8 +51,8 @@ export const StyledImg = styled.img `
     animation-duration: 2s; /* don't forget to set a duration! */
     animation-iteration-count: infinite;
     @media (min-width: 1024px) {
-        left: 40%;
-        bottom: 45%;
+        left: 31%;
+        bottom: 21%;
     }
 `
 export const StyledButton = styled.button `
