@@ -38,6 +38,7 @@ export const StyledLogo = styled.img `
     animation: headShake; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
     animation-iteration-count: infinite;
+    margin-top: 1rem;
     @media (min-width: 1024px) {
         width: 30%;
     }

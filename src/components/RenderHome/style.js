@@ -45,3 +45,48 @@ export const StyledList = styled(ScrollContainer) `
 
     }
 `
+export const StyledSubtitle = styled.div`
+    display: flex;
+    width: 120px;
+    gap:1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+`
+export const StyledColor = styled.div`
+    width: 25px;
+    height: 25px;
+    background-color: green;
+`
+export const StyledText = styled.span`
+    color: white;
+    text-align: left;
+`
+export const StyledColorDead = styled(StyledColor)`
+    background-color: red;
+`
+export const StyledColorUnknown = styled(StyledColor)`
+    background-color:grey;  
+`
+export const StyledContainer = styled.div`
+    position: fixed;
+    top: 88%;
+    left: 13%;
+    @media(min-width: 1024px){
+        top: 14%;
+        left: 6%;
+    }
+`
+export const StyledInnerButton = styled.button`
+    padding: 1rem .5rem;
+    margin: 0 1rem;
+    width: 120px;
+    background-color: #4e872c;
+    color: #FFF;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    :hover{
+        background-color: #73b140;
+    }
+`
