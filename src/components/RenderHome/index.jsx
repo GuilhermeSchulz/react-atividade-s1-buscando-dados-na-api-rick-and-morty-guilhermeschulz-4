@@ -33,8 +33,8 @@ export const RenderHome = () => {
       <StyledMain>
         <StyledLogo src={logo} alt="Logo Rick and Morty" />
         <div>
-          <StyledInnerButton onClick={previousPage}>previous</StyledInnerButton>
-          <StyledInnerButton onClick={nextPage}>next</StyledInnerButton>
+          <StyledInnerButton onClick={previousPage}>PREVIOUS</StyledInnerButton>
+          <StyledInnerButton onClick={nextPage}>NEXT</StyledInnerButton>
         </div>
         <StyledContainer>
           <StyledSubtitle>

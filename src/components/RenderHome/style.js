@@ -90,3 +90,19 @@ export const StyledInnerButton = styled.button`
         background-color: #73b140;
     }
 `
+
+
+
+
+
+
+
+
+//Oi, meu nome é Guilherme Schulz, tenho 29 anos, moro em canoas no rio grande do sul
+//Fui designer gráfico por cerca de 3 anos, hoje estou migrando pra area de tecnologia,
+//após encontrar curso da Kenzie Academy, que é uma instituiçao que prepara o aluno por 1 ano para o mercado de trabalho
+//A Kenzie oferece a formação como full stack e estou estou atualmente finalizando a primeira parte da formaçao que seria de Front End,
+//Tenho experiencia atuando como monitor pela kenzie, ajudando e tirando dúvidas de outros alunos,
+//tenho um certo dominio de React, Javascript, CSS, HTML, e também algumas bibliotecas, como MUI e Axios
+//Atualmente sinto que estou preparado para poder pegar um desafio maior na minha carreira
+//e acredito que a esta empresa é a correta para me proporcionar este desafio

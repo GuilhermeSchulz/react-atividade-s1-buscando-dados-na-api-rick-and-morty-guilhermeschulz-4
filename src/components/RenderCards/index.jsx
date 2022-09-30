@@ -16,9 +16,9 @@ export const RenderCard = ({element}) => {
 
 
     return(
-        <StyledItem key={element.id}>
-            <img src={element.status === "Alive"? cardGreen : element.status === "Dead"? cardRed : cardGrey}
-                alt={element.name}/>
+        <StyledItem key={element.id} status = {element.status}>
+            {/* <img src={element.status === "Alive"? cardGreen : element.status === "Dead"? cardRed : cardGrey}
+                alt={element.name}/> */}
             <StyledName>{element.name}</StyledName>
             <StyledProfileImg src={element.image} alt={element.name}></StyledProfileImg>
             <StyledInfos>{element.species} - {element.origin.name}</StyledInfos>
